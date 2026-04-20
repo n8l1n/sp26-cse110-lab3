@@ -1,10 +1,10 @@
-#Progress Check Meeting
+# Progress Check Meeting
 
-##Timestamp
+## Timestamp
 
 Date/Time:
 
-##Attendence
+## Attendence
 
 Attendees:
 
