@@ -7,21 +7,36 @@ body {
     font-family: 'Smooch Sans', times; /* This font fallsback to times if Smooch Sans fails to load */
 }
 
+/* class selector for the header class */
 .header {
     padding: 10px;
     text-align: center;
 }
 
+/* class selector for the box class */
 .box {
   border-width: 5px;
   border-style: solid;
-  border-color: #000000;
-  border-radius: 5%;
+  border-color: rgba(0, 0, 0, .5);
+  border-radius: 2em;
 }
 
+/* id selector for the signup form */
 #signup {
     background-color: rgb(179, 239, 179);
-    border: 2px solid #000;
+    border: 2px solid hsla(0, 0%, 0%, 0.5);
     padding: 10px;
+    display: inline-block;
 }
 
+/* universal selector */
+* {
+    box-sizing: border-box;
+}
+
+
+/* element selector for all video elements */
+video {
+    width: 50%;
+    height: auto;
+}
