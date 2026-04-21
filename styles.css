@@ -12,18 +12,44 @@ body {
     font-family: var(--main-font);
 }
 
-/* class selector for the header class */
-.header {
+/* class selector for the title class */
+.title {
     padding: 10px;
+    font-size: 14pt;
     text-align: center;
+    color: color-mix(in srgb, black 50%, transparent);
 }
 
 /* class selector for the box class */
 .box {
+  background-color: #B3EFB3;
+}
+
+.borderlh {
   border-width: 5px;
   border-style: solid;
   border-color: rgba(0, 0, 0, .5);
   border-radius: 2em;
+}
+
+.bordersh {
+  border: 5px solid color(srgb(0, 0, 0) / 0.5);
+  border-radius: 2em;
+}
+
+.marginlh {
+  margin-top: 1vh;
+  margin-right: 1vw;
+  margin-bottom: 1vh;
+  margin-left: 1vw;
+}
+
+.marginsh {
+  margin: 1vh 1vw 1vh 1vw;
+}
+
+.marginauto {
+  margin: auto;
 }
 
 /* id selector for the signup form */
@@ -42,6 +68,25 @@ body {
 
 /* element selector for all video elements */
 video {
-    width: 50%;
     height: auto;
+    max-width: 50vw;
+}
+
+.imgcontainer {
+    display: flex;
+    justify-content: center;
+    height: 300px
+}
+
+img {
+    width: auto;
+    max-height: 95%;
+}
+
+input[type="text"] {
+  border: 1px solid #000;
+}
+
+button:hover {
+    background: hsl(120, 65%, 82%)
 }
