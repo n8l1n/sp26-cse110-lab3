@@ -26,8 +26,33 @@ body {
   background-color: #B3EFB3;
 }
 
-.boxtext {
-    padding: 10px;
+/* Descendant combinator */
+.box summary {
+    color: rgba(0, 0, 0, .5);
+}
+
+/* child combinator */
+ul > li {
+  border-top: 5px solid rgba(0, 0, 0, .1);
+  border-bottom: 5px solid rgba(0, 0, 0, .1);
+}
+
+/* general sibling combinator */
+h2 ~ p {
+  border: 5px solid rgba(0, 0, 0, .5);
+  border-radius: 2em;
+  margin: 1vh 1vw 1vh 1vw;
+  padding: 1vh 1vw 1vh 1vw;
+}
+
+/* adjacent sibling combinator */
+h2 + p {
+  background-color: #B3EFB3;
+}
+
+/* Combined two selectors */
+img.imgcontainer {
+  border: 5px solid rgba(0, 0, 0, .5);
 }
 
 .borderlh {
