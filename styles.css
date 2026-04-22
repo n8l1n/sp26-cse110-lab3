@@ -4,6 +4,7 @@
 /* global css variables */
 :root {
     --main-font: 'Smooch Sans', Times New Roman, serif;
+    padding: 10px;
 }
 
 /* Sets font and background color for the page */
@@ -25,15 +26,19 @@ body {
   background-color: #B3EFB3;
 }
 
+.boxtext {
+    padding: 10px;
+}
+
 .borderlh {
   border-width: 5px;
   border-style: solid;
-  border-color: rgba(0, 0, 0, .5);
+  border-color: color(srgb(0, 0, 0) / 0.5);
   border-radius: 2em;
 }
 
 .bordersh {
-  border: 5px solid color(srgb(0, 0, 0) / 0.5);
+  border: 5px solid rgba(0, 0, 0, .5);
   border-radius: 2em;
 }
 
@@ -50,6 +55,17 @@ body {
 
 .marginauto {
   margin: auto;
+}
+
+.paddinglh {
+  padding-top: 1vh;
+  padding-right: 1vw;
+  padding-bottom: 1vh;
+  padding-left: 1vw;
+}
+
+.paddingsh {
+  padding: 1vh 1vw 1vh 1vw;
 }
 
 /* id selector for the signup form */
@@ -75,12 +91,12 @@ video {
 .imgcontainer {
     display: flex;
     justify-content: center;
-    height: 300px
+    width: 50%;
 }
 
 img {
-    width: auto;
-    max-height: 95%;
+    height: auto;
+    min-width: 100%;
 }
 
 input[type="text"] {
@@ -89,4 +105,8 @@ input[type="text"] {
 
 button:hover {
     background: hsl(120, 65%, 82%)
+}
+
+h3 {
+    text-decoration: underline;
 }

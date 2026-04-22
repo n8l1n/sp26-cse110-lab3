@@ -19,33 +19,35 @@
         <li>Sam</li>
         <li>Alex</li>
       </ul>
-      <p>A message from the author:</p>
-      <audio controls>
-        <source src="media/voice-message.ogg" type="audio/mpeg">
-        Your browser does not support the audio element.
-      </audio>
-      <div>Agenda</div>
-      <details>
-        <summary>Click Here to View the Agenda</summary>
-        <nav>
-          <ul>
-            <li><a href="#overview">Overview</a></li>
-            <li><a href="#Steps">Steps</a></li>
-            <li><a href="#Continuations">Continuations</a></li>
-            <li><a href="#FinalThoughts">Final Thoughts</a></li>
-          </ul>
-        </nav>
-      </details>
-      <details>
-        <summary>Click Here to View things we still need to cover</summary>
-        <nav>
-          <ul>
-            <li>What is a T-Spin?</li>
-            <li>What is a Back-to-Back?</li>
-            <li>What is a Perfect Clear?</li>
-          </ul>
-        </nav>
-      </details>
+      <div class="marginsh bordersh box">
+        <p>A message from the author:</p>
+        <audio controls>
+          <source src="media/voice-message.ogg" type="audio/mpeg">
+          Your browser does not support the audio element.
+        </audio>
+        <div>Agenda</div>
+        <details>
+          <summary>Click Here to View the Agenda</summary>
+          <nav>
+            <ul>
+              <li><a href="#overview">Overview</a></li>
+              <li><a href="#Steps">Steps</a></li>
+              <li><a href="#Continuations">Continuations</a></li>
+              <li><a href="#FinalThoughts">Final Thoughts</a></li>
+            </ul>
+          </nav>
+        </details>
+        <details>
+          <summary>Click Here to View things we still need to cover</summary>
+          <nav>
+            <ul>
+              <li>What is a T-Spin?</li>
+              <li>What is a Back-to-Back?</li>
+              <li>What is a Perfect Clear?</li>
+            </ul>
+          </nav>
+        </details>
+      </div>
     </header>
     <main>
       <h1>Tetris Sailboat Opener</h1>
@@ -137,10 +139,14 @@
       <fieldset id="signup">
         <legend>Sign Up for Updates</legend>
         <div style="text-align: right;">
-          <label for="fname">Nickname:</label>
-          <input type="text" id="fname" name="fname"><br>
-          <label for="email">Email Address:</label>
-          <input type="email" id="email" name="email">
+          <div class="paddinglh">
+            <label for="fname">Nickname:</label>
+            <input type="text" id="fname" name="fname"><br>
+          </div>
+          <div class="paddingsh">
+            <label for="email">Email Address:</label>
+            <input type="email" id="email" name="email">
+          </div>
         </div>
       </fieldset>
       <br>
