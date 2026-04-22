@@ -55,6 +55,20 @@ img.imgcontainer {
   border: 5px solid rgba(0, 0, 0, .5);
 }
 
+/* pseudo-class selector */
+li:has(img) {
+  border: 2px solid rgba(0, 0, 0, .5);
+  border-radius: 2em;
+  padding: 10px;
+}
+
+/* nested selector */
+section {
+  & video {
+    border: 5px solid rgba(0, 0, 0, .5);
+  }
+}
+
 .borderlh {
   border-width: 5px;
   border-style: solid;
@@ -119,6 +133,12 @@ video {
     width: 50%;
 }
 
+@media (min-width: 768px) {
+  .imgcontainer {
+    width: 320px;
+  }
+}
+
 img {
     height: auto;
     min-width: 100%;
@@ -142,4 +162,8 @@ a:active {
 
 h3 {
     text-decoration: underline;
+}
+
+.hide {
+  display: none;
 }
