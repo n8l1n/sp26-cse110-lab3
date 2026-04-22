@@ -10,7 +10,7 @@
 /* Sets font and background color for the page */
 body {
     background-color: lightpink;
-    font-family: var(--main-font);
+    font-family: var(--main-font, serif);
 }
 
 /* class selector for the title class */
@@ -62,6 +62,12 @@ li:has(img) {
   border-radius: 2em;
   padding: 10px;
 }
+
+/* selector list */
+h1, h2 {
+  color: rgba(0, 0, 0, .5);
+}
+
 
 /* nested selector */
 section {
