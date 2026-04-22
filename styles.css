@@ -4,11 +4,11 @@
 /* global css variables */
 :root {
     --main-font: 'Smooch Sans', Times New Roman, serif;
-    padding: 10px;
 }
 
 /* Sets font and background color for the page */
 body {
+    padding: 10px;
     background-color: lightpink;
     font-family: var(--main-font, serif);
 }
