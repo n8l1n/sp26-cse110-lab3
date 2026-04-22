@@ -15,7 +15,7 @@ body {
 
 /* class selector for the title class */
 .title {
-    padding: 10px;
+    padding: 10mm;
     font-size: 14pt;
     text-align: center;
     color: color-mix(in srgb, black 50%, transparent);
