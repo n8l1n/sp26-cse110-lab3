@@ -132,6 +132,14 @@ button:hover {
     background: hsl(120, 65%, 82%)
 }
 
+a:hover {
+    background-color: rgba(0, 0, 0, .1);
+}
+
+a:active {
+    color: hsl(120, 65%, 82%);
+}
+
 h3 {
     text-decoration: underline;
 }
